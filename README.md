@@ -1,7 +1,7 @@
 # DES 加密详解
 DES explanation in Java
 改项目是使用java语言实现DES，3DES加密算法，使用CBC模式实现加密文件，并做成了软件mybox，并提供了源码实现，如果你对它感兴趣也可以那它进行加密测试，或者仔细查看源码文件
-如果你对DES, 3DES, CBC模式不熟悉请先阅读下面的文档，在这里提供了对DES, 3DES, CBC模式详细解释，大家可以参考
+如果你对DES, 3DES, CBC模式不熟悉请先阅读下面的文档或者它的[pdf形式](https://github.com/Chang-LeHung/DES/blob/main/DES.pdf)，在这里提供了对DES, 3DES, CBC模式详细解释，大家可以参考
 `mybox 使用方法如下`
 - 查看帮助文档
   ```
