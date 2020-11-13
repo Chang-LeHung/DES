@@ -17,3 +17,16 @@ DES explanation in Java
   ```
   .\mybox-64-bit.exe -input .\result.mybox -key1 0123456789abcdef -key2 0123456789abcdef -key3 0123456789abcdef -iv 0123456789abcdef -mode decrypt -output ans.md
   ```
+  
+![00](/images/DES_00.png)
+![01](/images/DES_01.png)
+![02](/images/DES_02.png)
+![03](/images/DES_03.png)
+![04](/images/DES_04.png)
+![05](/images/DES_05.png)
+![06](/images/DES_06.png)
+![07](/images/DES_07.png)
+![08](/images/DES_08.png)
+![09](/images/DES_09.png)
+![10](/images/DES_10.png)
+
