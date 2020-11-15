@@ -10,6 +10,36 @@ DES explanation in Java
   或者
   .\mymybox-64-bit.exe -help
   ```
+  结果如下
+  ```
+  ############################### MyBox ##################################
+  ### Description:                                                    ###
+  ### Software MyBox was Written by Mr. HuChang in Java on 10/27/2020 ###
+   _____________
+  < @牧牛的铃铛 >
+   -------------
+          \   ^__^
+           \  (oo)\_______
+              (__)\       )\/\
+                  ||---- w|
+                  ||     ||
+  Usage mybox:
+   mybox [FILED] ... [STRING] ...
+     -key1        --first secret key
+                      default=0123456789abcdef
+     -output      --output file path
+                      default=mybox
+     -input       --input file path
+                      default=null
+     -iv  --initialization vector of CBC encryption mode
+                      default=0123456789abcdef
+     -key2        --second secret key
+                      default=0123456789abcdef
+     -key3        --third secret key
+                      default=0123456789abcdef
+     -mode        --encrypt or decrypt
+                      default=en
+  ```
 - 加密
   ```
   .\mybox-64-bit.exe -input .\README.md -key1 0123456789abcdef -key2 0123456789abcdef -key3 0123456789abcdef -iv 0123456789abcdef -mode encrypt -output result
