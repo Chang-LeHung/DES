@@ -40,11 +40,11 @@ DES explanation in Java
      -mode        --encrypt or decrypt
                       default=en
   ```
-- 加密
+- 加密示例
   ```
   .\mybox-64-bit.exe -input .\README.md -key1 0123456789abcdef -key2 0123456789abcdef -key3 0123456789abcdef -iv 0123456789abcdef -mode encrypt -output result
   ```
-- 解密
+- 解密示例
   ```
   .\mybox-64-bit.exe -input .\result.mybox -key1 0123456789abcdef -key2 0123456789abcdef -key3 0123456789abcdef -iv 0123456789abcdef -mode decrypt -output ans.md
   ```
